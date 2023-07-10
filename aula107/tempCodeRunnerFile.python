@@ -1,0 +1,5 @@
+def erase(lista_de_tuplas):
+    for tup in lista_de_tuplas:
+        if len(tup) == 0:
+            indice = lista_de_tuplas.index(tup)
+            lista_de_tuplas.pop(indice)
